@@ -1,0 +1,128 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #2c3e50, #000000), url('https://path-to-your-stars-image.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Press Start 2P', sans-serif; 
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.app-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    position: relative; /* Needed for proper stacking */
+    z-index: 1; /* Bring app container above the background */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 2px solid #FF4961;
+    font-size: medium;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: -2px;
+    background: #FF595E;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-family: 'Press Start 2P', sans-serif; 
+}
+
+button:hover {
+    background: #FF7377;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(10, 2, 2, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.image-details {
+    padding: 20px;
+    text-align: center;
+}
+
+#title {
+    margin: 10px 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#explanation {
+    font-size: 1.2em;
+    color: #090707;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .app-container {
+        margin: 20px;
+    }
+}
+
+

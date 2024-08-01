@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Photograph of the Day</title>
+    <link rel="stylesheet" href="styles.css">
+ <!-- This is 
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <h1>NASA Photograph of the Day</h1>
+    </header>
+    <main>
+        <div class="app-container" role="main">
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="date" id="date-input" aria-label="Search by date">
+                    <button id="search-button">Search</button>
+                </div>
+            </div>
+            <div class="image-container" aria-live="polite">
+                <img id="image" src="" alt="NASA Photograph of the Day">
+                <div class="image-details">
+                    <h2 id="title"></h2>
+                    <p id="explanation"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
